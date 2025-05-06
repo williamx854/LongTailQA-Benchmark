@@ -2,6 +2,13 @@
 
 This supplementary material accompanies our ECAI 2025 submission and provides additional resources related to the construction and evaluation of the LongTailQA benchmark.
 
+<p align="center">
+  <img src="Images/process_overview.png" alt="Disambiguation Process" width="800"/>
+  <br>
+  <em>Figure 1: Overview of the disambiguation process to construct the LongTailQA datasets with disambiguated long-tail entities.</em>
+</p>
+
+
 ## Contents:
 
 ### 1. Disambiguated Datasets
