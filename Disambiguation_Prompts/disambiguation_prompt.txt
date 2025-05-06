@@ -1,0 +1,48 @@
+You will be given a pair of question and a list of possible answers to the question. You will also receive additional description about the subject entity in the question.
+Your task is to augment the original question with the additional information from the description.
+
+**Important:**
+- If the description contains terms that match or closely relate to any of the possible answers (e.g., occupation names, places), do **not** use those specific terms to augment the question.
+- Only use other non-answer information from the description (such as dates, nationality, or other biographical details) to augment the question.
+- If the description contains **nothing usable** without giving away the answer, output the original question without any change.
+
+### Examples:
+
+#### Example 1:
+**Question**: What is Charles Harrison's occupation?  
+**Possible Answer**: ["politician", "political leader", "political figure", "polit.", "pol"]  
+**Description**: British politician (1830–1888)  
+**Augmented Question**: What was Charles Harrison's (1830–1888) occupation?
+
+#### Example 2:
+**Question**: Who is the mother of Edgar Allan Poe?  
+**Possible Answer**: ["Eliza Poe"]  
+**Description**: American writer and literary critic (1809–1849)  
+**Augmented Question**: Who is the mother of the American writer and literary critic, Edgar Allan Poe (1809–1849)?
+
+#### Example 3:
+**Question**: In what city was Maurice El Mediouni born?  
+**Possible Answer**: ["Oran", "Wahran"]  
+**Description**: Algerian pianist and composer  
+**Augmented Question**: In what city was the Algerian pianist and composer Maurice El Mediouni born?
+
+#### Example 4:
+**Question**: What is Marie Curie’s occupation?  
+**Possible Answer**: ["physicist", "chemist"]  
+**Description**: Polish and naturalized-French physicist and chemist  
+**Augmented Question**: What is the occupation of Marie Curie, the Polish and naturalized-French scientist?
+
+#### Example 5:
+**Question**: Who was the screenwriter for Ma Hogan's New Boarder?  
+**Possible Answer**: ["Raymond Longford", "John Walter Longford"]  
+**Description**: 1915 film by Raymond Longford  
+**Augmented Question**: Who was the screenwriter for the 1915 film, Ma Hogan's New Boarder?
+
+---
+
+**Now for your task:**
+
+**Question**: {question}  
+**Possible Answer**: {possible_answers}  
+**Wikidata Description**: {wikidata_description}  
+**Augmented Question**:

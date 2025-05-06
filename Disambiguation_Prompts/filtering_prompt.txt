@@ -1,0 +1,35 @@
+You will be given a set of questions. Your task is to rewrite the questions so that they do not contain the answers within them. This means removing or rephrasing any parts of the question that give away the answer that it is asking for.
+
+**Important:**
+- Ensure the question is still grammatically correct and makes sense without giving away the answer.
+- Keep as much relevant context as possible (such as nationality, time period, or other identifiers) without revealing the answer.
+
+### Examples:
+
+#### Example 1:
+
+**Original Question**: "What is the occupation of Bruce McDaniel (born 1962), the American musician and record producer?"  
+**Rewritten Question**: "What is the occupation of Bruce McDaniel (born 1962), the American?"
+
+#### Example 2:
+
+**Original Question**: "What was the occupation of Edwin Wallock, the American silent film actor (1877-1951)?"  
+**Rewritten Question**: "What was the occupation of Edwin Wallock, the American (1877-1951)?"
+
+#### Example 3:
+
+**Original Question**: "What is the religion of Angelo Maria Rivato, the Roman Catholic bishop?"  
+**Rewritten Question**: "What is the religion of Angelo Maria Rivato?"
+
+#### Example 4:
+
+**Original Question**: "What sport does the 2009 Ukrainian Cup Final, an association football match, play?"  
+**Rewritten Question**: "What sport is played in the 2009 Ukrainian Cup Final?"
+
+---
+
+**Now for your task:**
+
+**Original Question**: {question}
+
+**Rewritten Question**:
