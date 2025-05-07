@@ -15,7 +15,7 @@ witqa = pd.read_csv("witqa_long_tail.csv")
 # Set up SPARQL connection
 endpoint_url = "https://query.wikidata.org/sparql"
 sparql = SPARQLWrapper(endpoint_url)
-sparql.agent = "MyResearchBot (uwe.hadler@l3s.de)"
+sparql.agent = "AnonymousResearchBot (anonymous@example.com)"
 
 def execute_sparql_query(query, retries=3, delay=5):
     for attempt in range(retries):
