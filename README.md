@@ -39,5 +39,3 @@ The core implementations for running the Self-RAG and InstructRAG models as well
 
 Our code primarily involves scripts running these models on the LongTailQA benchmark data.
 
-## Dataset Access
-The full LongTailQA benchmark will be made publicly available upon acceptance of the paper via GitHub.
