@@ -1,7 +1,7 @@
 # LongTailQA: Benchmarking LLMs and RAG Models on Disambiguated Long-Tail Entities
 
 [![Conference](https://img.shields.io/badge/LREC-2026-blue)](https://lrec2026.info/)
-[![Dataset on Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Datasets-LongTailQA-yellow)](https://huggingface.co/datasets/williamx854/LongTailQA)
+[![Dataset on Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Datasets-LongTailQA-yellow)](https://huggingface.co/datasets/willx7890/LongTailQA)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 > **Official repository and dataset for the LREC 2026 paper: "LongTailQA: Benchmarking LLMs and RAG Models on Disambiguated Long-Tail Entities"**
@@ -23,10 +23,10 @@ The easiest way to use the LongTailQA benchmark is via the Hugging Face `dataset
 from datasets import load_dataset
 
 # Load the entire benchmark
-dataset = load_dataset("williamx854/LongTailQA")
+dataset = load_dataset("willx7890/LongTailQA")
 
 # Or load a specific subset
-popqa_subset = load_dataset("williamx854/LongTailQA", "PopQA")
+popqa_subset = load_dataset("willx7890/LongTailQA", "DisambPopQA")
 ```
 
 ---
